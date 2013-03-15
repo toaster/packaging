@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
 inherit eutils multilib distutils confutils fdo-mime versionator
 
 MY_P="${P/m/M}"
@@ -11,8 +13,6 @@ SRC_URI="http://ftp.osuosl.org/pub/pculture.org/miro/src/${MY_P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="x86 amd64"
-
-EAPI="2"
 
 IUSE="libnotify gstreamer xine"
 
